@@ -13,8 +13,8 @@ public class EmployeeService {
     private List<Employee> employees = new ArrayList<>();
  
     public EmployeeService() {
-        employees.add(new Employee(1, "Senthur", "DevOps", 200000));
-        employees.add(new Employee(2, "John", "Testing", 150000));
+        employees.add(new Employee(1, "Senthur Siva ", "DevOps+GenAI", 200000));
+        employees.add(new Employee(2, "David Billa", "Testing+AI", 150000));
     }
  
     public List<Employee> getAllEmployees() {
